@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Proton Rate change testcases">
+    <test name="Rate chnage Test">
+        <classes>
+        
+            <!-- Include the full package name of the test class -->
+            
+            <class name="Testcases.RateChange_01_formsubmissionby_KAM"/>
+            <class name="Testcases.RateChange_02_ZonalRegionalHeadVerification"/>
+			<class name="Testcases.RateChange_03_SalesHeadVerification"/>
+            <class name="Testcases.RateChange_04_CSDHeadVerification"/>
+            <class name="Testcases.RateChange_05_ChiefRevenueOfficerVerification"/>
+            <class name="Testcases.RateChange_06_ChiefSalesOfficerVerification"/>
+            <class name="Testcases.RateChange_07_ManagementVerification"/>
+             
+        </classes>
+    </test>
+</suite>
